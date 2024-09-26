@@ -25,7 +25,7 @@ nav {
     background: linear-gradient(to right, #17ead9 0, #6078ea 100%)
 }
 
-nav a:after {
+nav ul li a:after {
     content: "";
     width: 0;
     height: 2px;
@@ -36,7 +36,7 @@ nav a:after {
     background: #fff;
 }
 
-nav a:hover::after {
+nav ul li a:hover::after {
     width: 100%;
 }
 
