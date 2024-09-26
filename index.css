@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+}
+
+::selection {
+    background: black;
+}
+
+nav li {
+    position: relative;
+}
+
+nav {
+    background: linear-gradient(to right, #17ead9 0, #6078ea 100%)
+}
+
+nav a:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    top: 33px;
+    left: 0;
+    transition: 0.4s all linear;
+    background: #fff;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.top {
+    background: linear-gradient(to right, #17ead9 0, #6078ea 100%);
+    padding-bottom: 150px !important;
+    position: relative;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+}
+
+.navbar-toggler-icon {
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+}
+
+nav a {
+    color: #fff !important;
+}
+
+.middle {
+    margin-top: 70px !important;
+    width: 50vw;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+.middle h1 {
+    font-size: 55px;
+    font-weight: 300;
+}
+
+.middle-2 {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+    color: #e0e2e3;
+}
+
+.middle-2 p {
+    font-size: 18px;
+
+    .com {
+        text-decoration: none;
+        color: #fff;
+        transition: .5s ease;
+    }
+
+    .com:hover {
+        color: #e0e2e3;
+    }
+}
+
+.middle-2 .para-2 {
+    gap: 5px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    transition: 0.4s all linear;
+}
+
+.middle-2 .para-2 a {
+    color: #fff;
+    text-decoration: none;
+    transition: margin-right 0.4s linear;
+}
+
+.middle-2 .para-2:hover a {
+    margin-right: 8px;
+}
+
+.middle-2 .para-2 span i {
+    cursor: pointer;
+    transition: margin-left 0.4s linear;
+    font-size: 25px;
+}
+
+.middle-2 .para-2:hover i {
+    margin-left: 8px;
+}
+
+.main {
+    position: relative;
+    background-color: #ebeced !important;
+    /* min-height: 100vh; */
+    padding-bottom: 500px !important;
+}
+
+.main-parent {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    right: 0;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+}
+
+.main-child {
+    position: relative;
+    background: #fff;
+    padding: 49px;
+}
+
+.main-child p {
+    color: #7e8890;
+    font-size: 14px;
+}
+
+.main-child h5 {
+    font-weight: 300;
+    color: #374252;
+}
+
+.stubborn {
+    margin-top: -6px;
+}
+
+.get {
+    background: #ebeced
+}
+
+.get button {
+    min-width: 320px !important;
+    margin-bottom: 50px;
+    height: 60px;
+}
+
+.companies {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow: hidden;
+}
+
+.companies-left {
+    margin: 0 auto;
+    max-width: 420px;
+}
+
+.companies-left p {
+    font-size: 14px;
+    color: #7e8890;
+}
+
+.companies-left em {
+    font-size: 12px;
+    color: #7e8890;
+}
+
+.companies-left h3 {
+    color: #374252;
+    font-weight: 300;
+}
+
+.person {
+    display: flex;
+    gap: 9px;
+    align-items: center !important;
+    text-align: center;
+}
+
+.person img {
+    width: 100%;
+    max-width: 30px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.companies-right {
+    margin-right: -100px;
+}
+
+.companies-right img {
+    box-shadow: -19px 12px 104px -24px rgba(0, 0, 0, .15);
+}
+
+.mac-book {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px !important;
+}
+
+.mac-book-left {
+    margin-left: -10px;
+}
+
+.mac-book-right {
+    margin-left: -200px;
+}
+
+.emotions {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 200px !important;
+    margin-bottom: 200px !important;
+}
+
+.twitter img {
+    width: 100%;
+    max-width: 30px;
+}
+
+.benefits {
+    background: #6078ea;
+    padding-bottom: 50px;
+}
+
+.benefits-child {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 740px;
+}
+
+.benefits-child h2 {
+    font-weight: 300;
+}
+
+.benefits-child p {
+    color: rgba(255, 255, 255, .6);
+}
+
+.we {
+    margin: 0 auto;
+    width: 90vw;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    color: rgba(255, 255, 255, .6);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon span i {
+    color: #17ead9;
+    font-size: 25px;
+}
+
+.icon h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.we p {
+    font-size: 15px;
+}
+
+.products {
+    margin-top: 100px;
+}
+
+.products-child {
+    max-width: 740px;
+    margin: 0 auto;
+    text-align: center;
+    color: #7e8890;
+}
+
+.products-child h3 {
+    color: #374252;
+    font-weight: 400;
+}
+
+.text-primary.show {
+    display: flex;
+    align-items: center;
+}
+
+.text-primary.show a {
+    color: blue;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.text-primary.show span {
+    color: blue;
+    opacity: 0;
+    transition: transform 1s ease, opacity 0.3s ease;
+    transform: translateX(-100%);
+}
+
+.text-primary.show a:hover+span {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.text-primary.show i {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.bring {
+    margin: 0 auto;
+    width: 90vw;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    color: #7e8890;
+    background: #fff;
+}
+
+.bring h4 {
+    color: #374252;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bring p {
+    font-size: 15px;
+}
+
+footer {
+    background: #ecedee;
+    margin-top: 100px;
+}
+
+.footer {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 150px;
+    gap: 30px;
+}
+
+.about h3 {
+    color: #374252;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about p {
+    color: #7e8890;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.blog h3 {
+    color: #374252;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.blog-child {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.blog-child img {
+    width: 100%;
+    border-radius: 5px;
+    max-width: 100px;
+    transition: 0.4s all linear;
+}
+
+.blog-child img:hover {
+    filter: grayscale(1);
+}
+
+.blog-child h5 {
+    color: #374252;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.blog-child p {
+    color: #7e8890;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -8px;
+}
+
+.contact h3 {
+    color: #374252;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact-child {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-child p {
+    color: #7e8890;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contact-child span i {
+    color: #7e8890;
+    font-size: 18px;
+}
+
+.contact-socials ul {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    gap: 20px;
+}
+
+.contact-socials i {
+    color: #6485ea;
+}
+
+.All-rights {
+    text-align: center;
+}
+
+.All-rights p {
+    font-weight: 400 !important;
+    font-size: 13px !important;
+}
+
+.all-rights-p {
+    margin-top: -15px;
+}
+
+@media screen and (max-width: 1024px) {
+    nav a:hover::after {
+        width: 20%;
+    }
+
+    .offcanvas {
+        background: rgb(94, 122, 233);
+    }
+
+    .middle {
+        width: 75vw;
+    }
+
+    .middle h1 {
+        font-size: 33px;
+    }
+
+    .middle-2 {
+        max-width: 290px;
+    }
+
+    .main {
+        padding-bottom: 1300px !important;
+    }
+
+    .contain {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .companies {
+        grid-template-columns: 1fr;
+        margin: 0 10px;
+    }
+
+    .companies-left {
+        margin: 0 auto !important;
+    }
+
+    .companies-right {
+        margin-right: 0;
+    }
+
+    .mac-book {
+        grid-template-columns: 1fr;
+        margin: 0 10px;
+    }
+
+    .mac-book-right {
+        margin-left: 0;
+    }
+
+    .mac-book-left {
+        margin-left: 0;
+    }
+
+    .emotions {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .we {
+        grid-template-columns: 1fr;
+    }
+
+    .bring {
+        grid-template-columns: 1fr;
+    }
+
+    .products-child {
+        margin: 0 5px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .hhhh {
+        margin-top: 20px;
+    }
+}
